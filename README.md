@@ -1,6 +1,3 @@
-Certainly! Here's the complete README file for the Pension Management System:
-
-```markdown
 # Pension Management System
 
 The Pension Management System is designed to manage pension-related activities for administrators, managers, and customers.
