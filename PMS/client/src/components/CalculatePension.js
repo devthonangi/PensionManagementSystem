@@ -25,9 +25,10 @@ const CalculatePension = () => {
     }
   };
 
-  const calculatePension = (age) => {
-    return age > 60 ? 20000 : 10000;
-  };
+ const calculatePension = (age) => {
+  return age > 60 ? 25000 : age >= 50 ? 20000 : age >= 40 ? 15000 : age >= 30 ? 10000 : age >= 25 ? 5000 : 0;
+};
+
 
   return (
     <div style={{ margin: '20px' }}>
